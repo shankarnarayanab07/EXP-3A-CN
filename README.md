@@ -10,7 +10,7 @@ Sockets Links.
 4. Send and receive the message using the send function in socket.
 ## PROGRAM
 ## Server.py:
-```
+```python
 import socket
 
 s = socket.socket()
@@ -43,7 +43,7 @@ s.close()
 ```
 
 ## Client.py:
-```
+```python
 import socket
 
 s = socket.socket()
